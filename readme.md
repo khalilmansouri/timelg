@@ -1,10 +1,14 @@
-#timelg
+# timelg
 
-##Install
+[![NPM](https://nodei.co/npm/timelg.png)](https://nodei.co/npm/timelg/)
+
+Time naturel language 
+
+## Install
 ```
 npm install --save timelg
 ```
-##Usage
+## Usage
 ```
 require('timelg');
 
