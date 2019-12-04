@@ -1,0 +1,29 @@
+{
+  "name": "timelg",
+  "version": "0.1.3",
+  "description": "Time nature langurage",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./test",
+    "build": "babel src -d lib"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khalilmansouri/timelg.git"
+  },
+  "author": "khalil_mansouri",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.14.0",
+    "babel-preset-es2015": "^6.14.0",
+    "mocha": "^3.0.2"
+  },
+  "dependencies": {
+    "ms": "^0.7.1"
+  }
+}
